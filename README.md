@@ -14,7 +14,8 @@ docker compose up
 ```
 
 backend(Ruby on Rails) works on 3000 port.  
-frontend(Next.js) works on 4000 port.
+frontend(Next.js) works on 4000 port.  
+Storybook works on 6006 port.
 
 ## Lint and Format
 
