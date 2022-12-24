@@ -28,13 +28,13 @@ docker compose run backend rubocop
 Lint for Next.js
 
 ```
-docker compose run yarn lint
+docker compose run frontend yarn lint
 ```
 
 Format for Next.js
 
 ```
-docker compose run yarn format
+docker compose run frontend yarn format
 ```
 
 ## Test
@@ -42,5 +42,11 @@ docker compose run yarn format
 RSpec for Rails.
 
 ```
-docker compose bundle exec rspec
+docker compose run backend bundle exec rspec
+```
+
+Jest for Next.js.
+
+```
+docker compose run frontend yarn jest
 ```

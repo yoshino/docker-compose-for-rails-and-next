@@ -10,7 +10,7 @@
     "format": "prettier --config .prettierrc --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json}'",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test": "jest --watchAll"
+    "jest": "jest --watchAll"
   },
   "dependencies": {
     "@types/node": "18.11.9",
